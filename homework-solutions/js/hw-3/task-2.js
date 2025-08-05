@@ -7,10 +7,12 @@ n + nn + nnn, где n не перемножаются, а конкатенир�
 let n = 1;
 let nn = String(n) + String(n);
 let nnn = String(n) + String(n) + String(n);
-console.log(n + +nn + +nnn);
+n + nn + nnn
+//console.log(n + +nn + +nnn);
 
 
-or 
+//or 
 let m = 2;
 let result = m + +(String(m) + String(m)) + +(String(m) + String(m) + String(m));
-console.log(result);
+m + mm + mmm
+//console.log(result);
